@@ -42,5 +42,6 @@ int main(void) {
   n = rand() % 11 + (-3);
   printf("%d\n\n", n);
 
+  return (0);
 
-}
+}// End function main

@@ -28,7 +28,7 @@ int main(void) {
     printf("%s", "Enter the length of the first side (-1 to exit): ");
     scanf("%lf", &opp);
 
-    if (opp == -1) { // Jumps out of loop once user inputs sentinel value
+    if (opp == -1 || adj == -1) { // Jumps out of loop once user inputs sentinel value
 
       return (0);
 
@@ -36,11 +36,10 @@ int main(void) {
 
     printf("%s", "Enter the length of the second side: ");
     scanf("%lf", &adj);
-
 		  
-    printf("The length of the Opposite side is: %lf\n", opp);
-    printf("The length of the Adjacent side is: %lf\n", adj);
-    printf("The length of the Hypotenuse is calculated as: %lf\n\n", hypotenuse(opp, adj));
+    printf("The length of the Opposite side is: %.1lf\n", opp);
+    printf("The length of the Adjacent side is: %.1lf\n", adj);
+    printf("The length of the Hypotenuse is calculated as: %.1lf\n\n", hypotenuse(opp, adj));
 
   }// End while
 
