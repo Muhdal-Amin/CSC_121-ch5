@@ -62,12 +62,39 @@ Define a function called hypotenuse that calculates the length of the hypotenuse
 # Exercise 5.16 (Sides of a Triangle)
 Write a function that reads three non zero double values as the sides of a triangle, and calculates and returns the area of the triangle as a double variable. It should also check whether the numbers represent the sides of a triangle before calculating the area. Use this function in a program that inputs a series of sets of numbers.
 
-| Triangle| Side 1| Side 2|
-| :-------| :-----| :-----|
-| 1       | 3.0   | 4.0   |
-| 2       | 5.0   | 12.0  | 
-| 3       | 8.0   | 15.0  |
+| Triangle | Side 1 | Side 2 |
+| :--------| :------| :------|
+| 1        | 3.0    | 4.0    |
+| 2        | 5.0    | 12.0   | 
+| 3        | 8.0    | 15.0   |
 
 
-# Exercise 4.20 - Truth Tables
-Complete the following truth tables by filling in each blank with 0 or 1.
+# Exercise 5.17 (Sides of a Right Triangle)
+Write a function that reads three non zero integers and determines whether they're the sides of a right angled triangle. The function should take three integers arguments and return 1 (true) if the arguments comprise a right angled triangle, and 0 (false) otherwise. Use this function in a program that inputs a series of sets of integers.
+
+# Exercise 5.18 (Even or Odd)
+Write a program that inputs a series of integers and passes them one at a time to function isEven which uses the remainder operator to determine if whether an integer is even. The function should take an integer argument and return 1 if the integer is even and 0 otherwise.
+
+# Exercise 5.19 (Rectangle of Asterisk)
+Write a function that display a solid rectangle of asterisk whose sides are specified in the integer parameters side1 and side2. For example, if the sides are 4 and 5, the function displays the following;
+
+*****
+
+*****
+
+*****
+
+*****
+
+# Exercise 5.20 (Rectangle of any Character)
+Modify the function created in Ex 5.19 to form a rectangle out of whatever character is contained in the character parameter fillCharacter. Thus if the sides are 5 and 4, fill character is "@", then the function should print the following:
+
+@@@@
+
+@@@@
+
+@@@@
+
+@@@@
+
+@@@@
