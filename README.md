@@ -78,23 +78,16 @@ Write a program that inputs a series of integers and passes them one at a time t
 # Exercise 5.19 (Rectangle of Asterisk)
 Write a function that display a solid rectangle of asterisk whose sides are specified in the integer parameters side1 and side2. For example, if the sides are 4 and 5, the function displays the following;
 
-*****
-
-*****
-
-*****
-
-*****
++++++
++++++
++++++
++++++
 
 # Exercise 5.20 (Rectangle of any Character)
 Modify the function created in Ex 5.19 to form a rectangle out of whatever character is contained in the character parameter fillCharacter. Thus if the sides are 5 and 4, fill character is "@", then the function should print the following:
 
 @@@@
-
 @@@@
-
 @@@@
-
 @@@@
-
 @@@@
