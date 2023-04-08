@@ -7,10 +7,28 @@ An application of function ceil is rounding a value to the nearest integer.
 The statement;
 - y = ceil (x + .5);
 
-round the number to the nearest integer and assign the result to y. Write a program that reads several numbers and uses the preceeding statement to round each of these numbers to the integer. For each number processed, print both the original number and the rounded number.
+round the number to the nearest integer and assign the result to y. 
 
-# Exercise 4.18 - Bar-Chart Printing Program
-One interesting application of computers is drawing graphs and bar charts. Write a program that reads five numbers (each between 1 and 30). For each number read, your program should print a line containing that number of adjacent asterisks. For example, if your program reads the number seven, it should print *******.
+Write a program that reads several numbers and uses the preceeding statement to round each of these numbers to the integer. For each number processed, print both the original number and the rounded number.
+
+# Exercise 5.11 (Rounding Numbers)
+An application of function floor is rounding a number to a specific decimal point. 
+
+The statement;
+- y = floor (x * 10 + .5) / 10;
+
+rounds x to the tenth positon (the first position to the right of decimal point).
+
+The statement;
+- y = floor (x * 100 + .5) / 100;
+
+rounds x to the hundreth positon (the second position to the right of the decimal point).
+
+Write a program that defines four functions to round a number x in various ways;
+- roundToInteger(number)
+- roundToTenths(number)
+- roundToHundreths(number)
+- roundToThousandths(number)
 
 # Exercise 4.19 - Calculating Sales
 An online retailer sells five products whose retail prices are shown in the following table:
