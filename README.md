@@ -30,9 +30,31 @@ Write a program that defines four functions to round a number x in various ways;
 - roundToHundreths(number)
 - roundToThousandths(number)
 
-# Exercise 4.19 - Calculating Sales
-An online retailer sells five products whose retail prices are shown in the following table:
+For each of the value read, your progam should print the original value, the number rounded to the nearest integer, the number rounded to the nearest tenth, the number rounded to the nearest hundredth and the number rounded to the nearest thousandth.
 
+# Exercise 5.12 (Question File)
+Answer each of the following questions;
+- What is the difference between passing arguments by arguments and passing arguments by reference?
+- What values does the rand function generate?
+- How do you randomize a program?
+- How do you scale or shift the values produced by the rand function
+- What is a recursive function? 
+- What is a base case?
+
+# Exercise 5.13 (Randomizing Numbers)
+Write statements that assigns random integers to the variable n in the following ranges;
+- 1 <= n <= 6
+- 100 <= n <= 1000
+- 0 <= n <= 19
+- 1000 <= n <= 2222
+- -1 <= n <= 1
+- -3 <= n <= 11
+
+# Exercise 5.14 (Randomizing Numbers)
+For each of the following set of integers, write a single statement that will print a number at random from the set;
+- 3, 6, 9, 12, 15, 18, 21, 24, 27, 30.
+- 3, 5, 7, 9, 11, 13, 15, 17, 19.
+- 3, 8, 13, 18, 23, 28, 33.
 | Product Number| Retail Prices |
 | :------------ | :------------:| 
 | 1             | $2.98         |
@@ -41,13 +63,6 @@ An online retailer sells five products whose retail prices are shown in the foll
 | 4             | $4.49         |
 | 5             | $6.87         |
 
-- Write a program that reads a series of pairs of numbers as follows:
-    - Product number
-    - Quantity sold for one day
-    
-Your program should use a switch statement to help determine the retail price for each product.
-
-Your program should calculate and display the total retail value of all products sold lastweek.
 
 # Exercise 4.20 - Truth Tables
 Complete the following truth tables by filling in each blank with 0 or 1.
