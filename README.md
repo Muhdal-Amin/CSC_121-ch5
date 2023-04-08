@@ -1,9 +1,13 @@
 # CSC_121
-C - How to program 8th edition by Paul Deitel and Harvey Deitel. Chapter 5, Exercises 5.10, 5.11, 5.12, 5.13, 5.14, 5.15, 5.16, 5.17, 5.18, 5.19, 5.20
+C - How to program 8th edition by Paul Deitel and Harvey Deitel. Chapter 5, Exercises 5.10 - 5.20
 
 # Exercise 5.10 (Rounding Numbers)
-An application of function ceil is rounding a value to the nearest integer. The statement;
-- y = ceil(x + .5);
+An application of function ceil is rounding a value to the nearest integer. 
+
+The statement;
+- y = ceil (x + .5);
+
+round the number to the nearest integer and assign the result to y. Write a program that reads several numbers and uses the preceeding statement to round each of these numbers to the integer. For each number processed, print both the original number and the rounded number.
 
 # Exercise 4.18 - Bar-Chart Printing Program
 One interesting application of computers is drawing graphs and bar charts. Write a program that reads five numbers (each between 1 and 30). For each number read, your program should print a line containing that number of adjacent asterisks. For example, if your program reads the number seven, it should print *******.
