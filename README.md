@@ -55,13 +55,18 @@ For each of the following set of integers, write a single statement that will pr
 - 3, 6, 9, 12, 15, 18, 21, 24, 27, 30.
 - 3, 5, 7, 9, 11, 13, 15, 17, 19.
 - 3, 8, 13, 18, 23, 28, 33.
-| Product Number| Retail Prices |
-| :------------ | :------------:| 
-| 1             | $2.98         |
-| 2             | $4.50         |  
-| 3             | $9.98         | 
-| 4             | $4.49         |
-| 5             | $6.87         |
+
+# Exercise 5.15 (Hypotenuse Calculator)
+Define a function called hypotenuse that calculates the length of the hypotenuse of a right angled triangle when the other two sides are given. The function should take two arguments of type double and return the hypotenuse as a double. Test your program with side values specified below.
+
+# Exercise 5.16 (Sides of a Triangle)
+Write a function that reads three non zero double values as the sides of a triangle, and calculates and returns the area of the triangle as a double variable. It should also check whether the numbers represent the sides of a triangle before calculating the area. Use this function in a program that inputs a series of sets of numbers.
+
+| Triangle| Side 1| Side 2|
+| :-------| :-----| :-----|
+| 1       | 3.0   | 4.0   |
+| 2       | 5.0   | 12.0  | 
+| 3       | 8.0   | 15.0  |
 
 
 # Exercise 4.20 - Truth Tables
